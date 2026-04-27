@@ -372,9 +372,32 @@ footer{
     background-color: #222f3d;
     border:2px solid;
     border-color: #4d5757;
-
-
 }
+
+.lang-box{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    border: 2px solid #37475a;
+    /* padding: 6px 10px; */
+    border-radius: 4px;
+
+    background-color: #232f3e;
+    color: white;
+    width: fit-content;
+}
+
+.lang-box select{
+    background: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    cursor:grab;
+}
+
+
+
 
 .foot-panel4{
     background-color: #1a242e;
@@ -398,8 +421,3 @@ footer{
         text-decoration: underline;
     }
 
-.logo i{
-    height: 30px;
-    width: 30px;
-    color:white
-}
